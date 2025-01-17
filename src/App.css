@@ -1,0 +1,37 @@
+.translator-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 8px 12px;
+    z-index: 1000;
+  }
+  
+  .translator-container select {
+    background-color: #f8f8f8;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .translator-container .goog-te-combo {
+    width: 100%;
+    max-width: 150px;
+  }
+  
+  .translator-container #google_translate_element {
+    display: inline-block;
+    width: 0;
+  }
+  
+  .translator-container:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
